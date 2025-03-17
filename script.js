@@ -4,7 +4,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-const audio = new Audio('audio/music.mp3'); // Place an audio file in /audio/
+const audio = new Audio('audio/music.mp3?raw=true');
 audio.loop = true;
 
 document.getElementById('playButton').addEventListener('click', () => {
